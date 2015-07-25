@@ -1,0 +1,203 @@
+*  {
+	margin:0px;
+	-webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+body {
+	background:url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=626262&density=22&opacity=8');
+	font-family:'Ubuntu', sans-serif;
+}
+a {
+	text-decoration:none;
+}
+/*landing*/
+.landing {}
+	.landing h1 {
+		text-align:center;
+	}
+	.landing h1:first-child {
+		margin-top:150px;
+		color:#e74c3c;
+	}
+	.landing h1:nth-of-type(2){
+		color:#2ecc71;
+	}
+	.landing h1:nth-of-type(2) a{
+		color:#1e824c;
+	}
+	.landing h3 {
+		text-align:center;
+	}
+	.landing .main {
+		width:428px;
+		margin:auto;
+		margin-top:20px;
+	}
+		.landing .main input {
+			display:inline-block;
+			width:140px;
+			height:140px;
+			background-repeat:no-repeat;
+			background-position:center;
+			cursor:pointer;
+			background-size:128px;
+			background-color:transparent;
+			color:transparent;
+			border:0px;
+			outline:none;
+			transition:background-size .1s ease-in-out;
+			-moz-transition:background-size .1s ease-in-out;
+			-ms-transition:background-size .1s ease-in-out;
+			-o-transition:background-size .1s ease-in-out;
+			-webkit-transition:background-size .1s ease-in-out;
+		}
+		.landing .main input:hover {
+			background-size:140px;
+			transition:background-size .1s ease-in-out;
+			-moz-transition:background-size .1s ease-in-out;
+			-ms-transition:background-size .1s ease-in-out;
+			-o-transition:background-size .1s ease-in-out;
+			-webkit-transition:background-size .1s ease-in-out;
+		}
+		.landing .main .rock {
+			background-image:url('../img/rock.png');
+		}
+		.landing .main .paper {
+			background-image:url('../img/paper.png');
+		}
+		.landing .main .scissors {
+			background-image:url('../img/scissors.png');
+		}
+		.landing .main h4 {
+			text-align:center;
+		}
+		.landing .main h4:nth-of-type(1) {
+			margin-top:20px;
+			color:#e74c3c;
+		}
+		.landing .main h4:nth-of-type(3) {
+			color:#2ecc71;
+		}
+		.landing .main .computer {
+			width:128px;
+			height:128px;
+			border:3px solid #2ecc71;
+			border-radius:10px;
+			margin-left:140px;
+			margin-top:30px;
+			padding:2px;
+			text-align:center;
+		}
+			.landing .main .computer img.load {
+				display:block;
+				margin:auto;
+				margin-top:calc(50% - 20px);
+			}
+	.landing .result {
+		width:200px;
+		border-top:20px solid #e74c3c;
+		border-bottom:20px solid #2ecc71;
+		border-radius:10px;
+		background-color:white;
+		position:absolute;
+		top:424px;
+		left:calc(50% - 100px);
+	}
+/*rest of home*/
+	.landing h2 {
+		color:#e74c3c;
+		display:block;
+		margin-left:calc(50% - 200px);
+		margin-top:200px;
+	}
+	.landing .username {
+		margin-left:calc(50% - 200px);
+		color:#2ecc71;
+	}
+	.landing .score {
+		font-size:30px;
+		position:absolute;
+		bottom:35px;
+	}
+	.landing .hiscore {
+		font-size:30px;
+		position:absolute;
+		bottom:5px;
+	}
+	.landing .hiscore_link{
+		position:absolute;
+		bottom:35px;
+		right:12px;
+		color:#2ecc71;
+	}
+	.landing .logout {
+		position:absolute;
+		bottom:5px;
+		right:12px;
+		color:#2ecc71;
+		margin-top:-20px;
+	}
+	.landing .changep {
+		position:absolute;
+		bottom:20px;
+		right:12px;
+		color:#e74c3c;
+	}
+	.login form {
+		width:200px;
+		height:200px;
+		margin-left:calc(50% - 100px);
+		margin-top:200px;
+	}
+	.login form input {
+		width:200px;
+		height:30px;
+		border:0px;
+		padding:5px;
+		color:white;
+		border-radius:5px;
+		display:block;
+	}
+	.login form input[type="text"] {
+		background-color:rgba(46, 204, 112, 0.8);
+	}
+	.login form input[type="password"] {
+		background-color:rgba(46, 204, 112, 0.8);
+		margin-top:20px;
+	}
+	.login form span {
+		display:block;
+		margin-top:10px;
+		height:20px;
+	}
+	.login form span input[type="checkbox"] {
+		position:relative;
+		width:15px;
+		height:15px;
+		display:inline-block;
+	}
+	.login form span p{
+		display:inline-block;
+		line-height:15px;
+	}
+	.login form input[type="submit"] {
+		background-color:rgba(231, 77, 60, 0.8);
+		margin-top:10px;
+		cursor:pointer;
+	}
+	.login form .register_btn {
+		width:210px;
+	}
+	.login form input:focus {
+		outline:none;
+	}
+	.login form input::-webkit-input-placeholder {
+		color:white;
+	}
+	.login form > p {
+		margin-top:10px;
+	}
